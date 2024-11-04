@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="M-83-Ld4urQdA-pTDlbq">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N2URs1go8cltiyJOHSh0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N2URs1go8cltiyJOHSh0-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-14" value="Conexion API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="N2URs1go8cltiyJOHSh0-12">
+          <mxGeometry x="-0.113" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-5" value="Usuarios" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.cell_phone_windows_phone_standalone;" vertex="1" parent="1">
+          <mxGeometry x="360" y="45" width="55" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N2URs1go8cltiyJOHSh0-7" target="N2URs1go8cltiyJOHSh0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-10" value="Descarga" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="N2URs1go8cltiyJOHSh0-9">
+          <mxGeometry x="-0.1111" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-7" value="Google Play" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/732/732208.png;" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N2URs1go8cltiyJOHSh0-15" target="N2URs1go8cltiyJOHSh0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-34" value="Validacion de Identidad" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="N2URs1go8cltiyJOHSh0-19">
+          <mxGeometry x="-0.4863" y="-2" relative="1" as="geometry">
+            <mxPoint x="22" y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-15" value="OAuth2.0&#xa;(Autenticación)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.emojiterra.com/google/android-12l/512px/1f510.png;" vertex="1" parent="1">
+          <mxGeometry x="530" y="45" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N2URs1go8cltiyJOHSh0-18" target="N2URs1go8cltiyJOHSh0-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-35" value="Canal Comunicación&lt;br&gt;Segura" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="N2URs1go8cltiyJOHSh0-32">
+          <mxGeometry x="-0.2858" y="3" relative="1" as="geometry">
+            <mxPoint x="23" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-18" value="SSL/TLS&#xa;(Cifrado de Datos)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://png.pngtree.com/png-clipart/20230108/original/pngtree-gold-lock-icon-with-green-check-mark-png-image_8891138.png;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-22" value="Firebase&#xa;(Almacenamiento y&#xa;sincronizacion de datos)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png;" vertex="1" parent="1">
+          <mxGeometry x="1162.06" y="202.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-25" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.cdnlogo.com/logos/s/68/sqlite.svg;" vertex="1" parent="1">
+          <mxGeometry x="1282.06" y="123.75" width="237.5" height="237.5" as="geometry" />
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.333;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N2URs1go8cltiyJOHSh0-22" target="N2URs1go8cltiyJOHSh0-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-37" value="Sincronizacion en&lt;br&gt;Tiempo Real" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="N2URs1go8cltiyJOHSh0-26">
+          <mxGeometry x="-0.105" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-27" value="SQLite&lt;br&gt;(Base de datos Local)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1330.81" y="285" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="N2URs1go8cltiyJOHSh0-31" target="N2URs1go8cltiyJOHSh0-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1039.9999999999995" y="242.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-36" value="Manejo de&lt;br&gt;Datos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="N2URs1go8cltiyJOHSh0-33">
+          <mxGeometry x="0.0607" y="-1" relative="1" as="geometry">
+            <mxPoint x="-10" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2URs1go8cltiyJOHSh0-31" value="Backend" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png;" vertex="1" parent="1">
+          <mxGeometry x="900" y="202.5" width="130.44" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
